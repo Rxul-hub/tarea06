@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid #ffc400;
+    width: 100%;
+    height: 4000px;
+}
+
+#cabecera {
+    background-color: #ffc400;
+    color: #000;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+#cabecera ul {
+    padding: 15px;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+#cabecera a {
+    text-decoration: none;
+    color: #000;
+}
+
+#cabecera a:hover {
+    color: rgb(207, 207, 214);
+    background-color: rgb(255, 145, 0);
+    transition-duration: 0.5s;
+    interest-delay: 3s;
+}
+
+#contenido {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+img {
+    height: 100%;
+    Width: 100%;
+}
+
+#personaje1 {
+    height: 410px;
+    width: 410px;
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: #4b4444;
+    z-index: 900;
+}
+
+#personaje2 {
+    height: 410px;
+    width: 410px;
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: #4b4444;
+    z-index: 900;
+}
+
+#personaje1:hover {
+    box-shadow: 10px 10px 50px blue;
+    transition: 1s;
+    filter: brightness(2);
+}
+
+#personaje2:hover {
+    box-shadow: 10px 10px 50px red;
+    transition: 1s;
+    filter: contrast(2);
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+    position: relative;
+    top: 350px;
+}
+
+.img1 {
+    height: 300px;
+    width: 100%;
+    filter: grayscale(60%);
+}
+
+.info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#tipo1 {
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    left: 80%;
+    bottom: 78%;
+
+}
+
+#tipo2 {
+    background-color: red;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    left: 80%;
+    bottom: 78%;
+}
+
+p {
+    margin-top: 12px;
+}
